@@ -5,7 +5,7 @@ qr = qrcode.QRCode(version=1,
                    box_size=20,
                    border=2)
 
-qr.add_data("https://www.instagram.com/_weyx_h/")
+qr.add_data("LINK")
 
 qr.make(fit=True)
 
